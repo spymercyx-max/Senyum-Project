@@ -1,0 +1,86 @@
+/* ============================================================
+ * SENYUM NEO-BRUTALIST DESIGN TOKENS
+ * Kretek Senyum 2.0 — single source of truth untuk warna,
+ * border, shadow, radius, font, dan breakpoint.
+ * NO dark mode. NO glassmorphism. High contrast, flat.
+ * ============================================================ */
+
+:root {
+  /* ---- Brand colors ---- */
+  --senyum-cyan: #0bbcd6;
+  --senyum-cyan-dark: #0899ae;
+  --senyum-cyan-ink: #062a30;
+  --senyum-yellow: #ffd21f;
+  --senyum-yellow-dark: #eab308;
+  --senyum-black: #141414;
+  --senyum-white: #ffffff;
+  --senyum-paper: #fff9ec;
+  --senyum-gray: #6b7280;
+  --senyum-gray-light: #e5e7eb;
+  --senyum-danger: #e11d48;
+  --senyum-success: #16a34a;
+
+  /* ---- Borders (neo-brutalism: tebal, hitam, tegas) ---- */
+  --sn-border-width: 2px;
+  --sn-border-width-thick: 3px;
+  --sn-border: 2px solid var(--senyum-black);
+  --sn-border-thick: 3px solid var(--senyum-black);
+
+  /* ---- Hard shadows (tanpa blur, offset solid) ---- */
+  --sn-shadow-sm: 4px 4px 0 var(--senyum-black);
+  --sn-shadow-md: 6px 6px 0 var(--senyum-black);
+  --sn-shadow-lg: 8px 8px 0 var(--senyum-black);
+  --sn-shadow-none: 0 0 0 var(--senyum-black);
+
+  /* ---- Radius (kecil, tegas — jangan pill) ---- */
+  --sn-radius-none: 0px;
+  --sn-radius-sm: 2px;
+  --sn-radius-md: 4px;
+  --sn-radius-lg: 6px;
+
+  /* ---- Typography (system stack, tanpa download font) ---- */
+  --sn-font-display: 'Archivo Black', 'Arial Black', 'Helvetica Neue', Arial, sans-serif;
+  --sn-font-body: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --sn-font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  /* ---- Type scale ---- */
+  --sn-text-xs: 0.75rem;
+  --sn-text-sm: 0.875rem;
+  --sn-text-base: 1rem;
+  --sn-text-lg: 1.125rem;
+  --sn-text-xl: 1.25rem;
+  --sn-text-2xl: 1.5rem;
+  --sn-text-3xl: 1.875rem;
+  --sn-text-4xl: 2.25rem;
+  --sn-text-5xl: 3rem;
+
+  /* ---- Spacing scale (basis 4px) ---- */
+  --sn-space-1: 0.25rem;
+  --sn-space-2: 0.5rem;
+  --sn-space-3: 0.75rem;
+  --sn-space-4: 1rem;
+  --sn-space-6: 1.5rem;
+  --sn-space-8: 2rem;
+  --sn-space-12: 3rem;
+  --sn-space-16: 4rem;
+
+  /* ---- Motion ---- */
+  --sn-transition-fast: 120ms ease-out;
+  --sn-transition-base: 180ms ease-out;
+
+  /* ---- Breakpoints (dokumentatif — pakai di media query) ---- */
+  --sn-bp-sm: 640px;
+  --sn-bp-md: 768px;
+  --sn-bp-lg: 1024px;
+  --sn-bp-xl: 1280px;
+}
+
+/* ============================================================
+ * TAMBAHAN 2.0 — IDENTITAS TOSCA DEVELOPER (append saja,
+ * jangan hapus token lama di atas).
+ * ============================================================ */
+:root {
+  --senyum-tosca: #0FA3A3;
+  --senyum-tosca-dark: #0B7C7C;
+  --senyum-tosca-ink: #062A2A;
+}

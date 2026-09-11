@@ -1,0 +1,27 @@
+@import 'tailwindcss';
+@import './tokens.css';
+@import './senyum.css';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source "../**/*.blade.php";
+@source "../**/*.js";
+@source "../**/*.vue";
+
+@theme {
+  --color-senyum-cyan: #0bbcd6;
+  --color-senyum-cyan-dark: #0899ae;
+  --color-senyum-ink: #062a30;
+  --color-senyum-yellow: #ffd21f;
+  --color-senyum-yellow-dark: #eab308;
+  --color-senyum-black: #141414;
+  --color-senyum-white: #ffffff;
+  --color-senyum-paper: #fff9ec;
+  --color-senyum-gray: #6b7280;
+  --color-senyum-danger: #e11d48;
+  --color-senyum-success: #16a34a;
+
+  --font-display: 'Archivo Black', 'Arial Black', 'Helvetica Neue', Arial, sans-serif;
+  --font-body: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="Logo SENYUM — wajah tersenyum">
+  <circle cx="24" cy="24" r="21" fill="#FFD21F" stroke="#141414" stroke-width="3"/>
+  <circle cx="17" cy="19" r="3" fill="#141414"/>
+  <circle cx="31" cy="19" r="3" fill="#141414"/>
+  <path d="M14 29c2.5 4.5 6 6.5 10 6.5s7.5-2 10-6.5" stroke="#141414" stroke-width="3" stroke-linecap="round" fill="none"/>
+</svg>
